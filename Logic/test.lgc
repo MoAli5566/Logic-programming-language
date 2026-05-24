@@ -1,0 +1,16 @@
+import main
+
+main {
+    let x = 5;
+    let y = 10;
+    
+    print("x + y =", x + y);
+    
+    if (x < y) {
+        print("x is less than y");
+    }
+    
+    for (i : 1, 6) {
+        print("Loop:", i);
+    }
+}

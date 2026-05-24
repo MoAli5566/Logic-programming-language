@@ -1,0 +1,17 @@
+import main
+
+main {
+    function greet(name) {
+        print("Hello", name);
+    }
+
+    function clamp(value, minimum, maximum) {
+        if (value < minimum) {
+            return minimum;
+        }
+        if (value > maximum) {
+            return maximum;
+        }
+        return value;
+    }
+}
